@@ -1,0 +1,44 @@
+.left{
+    position: relative;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    padding-top:-5px;
+}
+.right{
+    cursor: pointer;
+    text-align: "left";
+    margin-top: -10px;
+    margin-bottom: 0px;
+    
+}
+.right:active{
+    transform: scale(0.98); 
+    color: gray;
+}
+.btn{
+    margin-bottom: 10px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1px 2px 10px blue;
+    border: none;
+}
+.btn:active{
+    transform: scale(0.98); 
+}
+.left:active{
+    transform: scale(1.00); 
+    color: gray;
+}
+.control{
+    display:flex;
+    justify-content: space-between;
+}
+.animate{
+    box-shadow: 1px 2px 10px black;
+    animation-name: nextImg;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    transition: all 1s;
+}
